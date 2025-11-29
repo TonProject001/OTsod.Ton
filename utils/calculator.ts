@@ -128,10 +128,11 @@ export function calculateOT(
 export function generateMockData(year: number): RawRecord[] {
   // Using names from your original code + professional sounding placeholders
   const names = [
-    'นายวิทวัส แปงใจ', 
     'นายปรพัฒน์ ขัตวงษ์', 
-    'นายศักดิ์ดา มั่นคง', // ชื่อสมมติ
-    'นางสาวนิภา ขยันงาน'  // ชื่อสมมติ
+    'นางสาวปพิชญา เอี้ยงหมี', 
+    'นางสาวกนกวรรณ วงษ์กล่ำ',
+    'นายศุภฤกษ์ เนตรแก้ว',
+    'นายกฤชณัท เทพมงคล'
   ];
   const records: RawRecord[] = [];
   
